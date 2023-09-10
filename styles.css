@@ -1,0 +1,184 @@
+/* Reset some defaults browser styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial';
+}
+
+#portfolio-header {
+    font-size: 2.5em;
+    font-weight: 800;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #ffffff;
+    color: #333;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 0.2rem 0;
+}
+
+header h2 {
+    margin: 0.2rem;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+main nav ul {
+    display: block;
+}
+
+main aside nav ul li {
+    font-weight: bold;
+}
+
+main nav ul ul li {
+    font-weight: normal;
+    list-style-type: circle;
+    margin-left: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #dadada;
+}
+
+.contact-hover {
+    color: #000000;
+    transition: color 0.3s ease;
+}
+
+.contact-hover:hover {
+    color: #dadada;
+    /* font-size: 1.01em; */
+    /* transition: scale 0.3s ease; */
+}
+
+main {
+    overflow-y: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: calc(137vh - 160px);
+}
+
+aside {
+    flex: 1;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 3px solid #ddd;
+    /* vertical-align: top;
+    padding: 2px; */
+}
+
+table tr td {
+    font-weight: normal;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+article {
+    flex: 1;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+h3, h2 {
+    border-bottom: 2px solid #071513;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+p, li {
+    margin-bottom: 10px;
+}
+
+.pictures img {
+    display: flex;
+    align-items: center;
+}
+
+.pictures img {
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+}
+
+.right {
+    text-align: center;
+}
+
+.underline-link {
+    text-decoration: underline;
+}
+
+.underline-link:hover {
+    text-decoration: none;
+}
+
+.highlight{
+    font-weight: bold;
+}
+
+#portfolio-footer{
+    background-color: #d4d4d4;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: bottom;
+    bottom: 2;
+    width: 100%;
+}
+
+#footer-icons{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#contact-me {
+    font-size: 1em;
+    line-height: 2;
+}

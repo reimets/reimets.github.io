@@ -48,6 +48,30 @@ header {
     }
 }
 
+/* Arvuti jaoks */
+/* @media (min-width: 768px) {
+    img {
+        width: 100%;
+        height: auto;
+    }
+} */
+
+/* Mobiiliseadmetele */
+/* @media (max-width: 767px) {
+    img {
+        width: auto; 
+        max-width: 100%; 
+        height: auto; 
+    }
+} */
+
+/* CSS */
+img {
+    max-width: 100%; /* Piltide laiuse maksimaalne väärtus on 100% */
+    height: auto; /* See tagab, et kõrgus muutub proportsionaalselt */
+}
+
+
 /* Stiil menüü-toggle nupule */
 #menu-toggle {
     font-size: 2em;
@@ -111,6 +135,7 @@ header {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
     z-index: 1000;
+    overflow-y: scroll; /* Võimaldab sisu kerida väiksemas ekraanis */
 }
 
 .open-to-work-popup.show {
@@ -120,6 +145,8 @@ header {
 }
 
 .open-to-work-popup-content {
+    max-height: 80vh; /* Maksimaalne kõrgus 80% ekraani kõrgusest */
+    overflow-y: auto; /* Vertikaalne kerimisriba, kui sisu ei mahu ära */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -154,6 +181,7 @@ header {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
     z-index: 1000;
+    overflow-y: scroll; /* Võimaldab sisu kerida väiksemas ekraanis */
 }
 
 .invite-me-popup.show {
@@ -163,6 +191,8 @@ header {
 }
 
 .invite-me-popup-content {
+    max-height: 80vh; /* Maksimaalne kõrgus 80% ekraani kõrgusest */
+    overflow-y: auto; /* Vertikaalne kerimisriba, kui sisu ei mahu ära */
     position: absolute;
     top: 50%;
     left: 50%;

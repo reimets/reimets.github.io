@@ -155,7 +155,7 @@ header {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    max-width: 80%;
+    max-width: 90%;
 }
 
 /* Invite Me popup osa */
@@ -201,7 +201,7 @@ header {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    max-width: 80%;
+    max-width: 90%;
 }
 
 .close {
